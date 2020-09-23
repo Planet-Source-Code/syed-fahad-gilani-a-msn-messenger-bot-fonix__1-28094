@@ -1,0 +1,422 @@
+[Root]
+Most Recent Package=MSN Messenger Bot
+
+
+[Package|Fonix Extension|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+
+[Package|Fonix Extension|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Fonix Extension|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Fonix Extension|Files Found]
+
+[Package|Fonix Extension|Files Released]
+2=
+
+[Package|Fonix Extension|Missing Dependency Information]
+C:\WINNT\system32\agentctl.dll=
+C:\Program Files\Messenger\msmsgs.exe=
+
+[Package|Fonix Extension|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|Fonix Extension|Files Added]
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=
+
+[Package|Fonix Extension|Files Removed]
+c:\program files\messenger\msmsgs.exe=
+
+[Package|Fonix Extension|Files In Project]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Messenger\msmsgs.exe=No
+C:\WINNT\system32\agentctl.dll=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=Yes
+
+[Package|Fonix Extension|Configure Registry Files]
+Applicable=No
+
+[Package|Fonix Extension|Configure Remote Servers]
+Applicable=No
+
+[Package|Fonix Extension|Install Locations]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\agentctl.dll=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=$(AppPath)
+
+[Package|Fonix Extension|Configure Shared Files]
+Applicable=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=No
+
+[Package|Fonix Extension|Distribution]
+Type=single
+Size=
+Title=Fonix Extensions - by Syed Fahad Gilani
+
+[Package|Fonix Extension|IconGroups]
+Group0=Fonix Extensions
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Fonix Extension|Fonix Extensions]
+Icon1=FonixExt.exe
+Title1=Fonix Extensions
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Fonix Extension|Package]
+PackageFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+ProjectFolder=C:\Old Files\Documents\Administrator\My Documents\FxN
+ServerSideCab=
+File1=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\setup.exe
+File2=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\Setup.Lst
+File3=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\FonixExt.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Fonix Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+
+[Package|Fonix Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Fonix Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Fonix Setup|Files Found]
+
+[Package|Fonix Setup|Files Released]
+2=
+
+[Package|Fonix Setup|Missing Dependency Information]
+C:\WINNT\system32\agentctl.dll=
+C:\Program Files\Messenger\msmsgs.exe=
+
+[Package|Fonix Setup|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|Fonix Setup|Files Added]
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=
+
+[Package|Fonix Setup|Files Removed]
+c:\program files\messenger\msmsgs.exe=
+
+[Package|Fonix Setup|Files In Project]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Messenger\msmsgs.exe=No
+C:\WINNT\system32\agentctl.dll=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=Yes
+
+[Package|Fonix Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Fonix Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Fonix Setup|Install Locations]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\agentctl.dll=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=$(AppPath)
+
+[Package|Fonix Setup|Configure Shared Files]
+Applicable=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\BLONDE.TXT=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\beep.wav=No
+C:\Old Files\Documents\Administrator\My Documents\FxN\Readme.txt=No
+
+[Package|Fonix Setup|Distribution]
+Type=single
+Size=
+Title=Fonix Extensions
+
+[Package|Fonix Setup|IconGroups]
+Group0=Fonix Extensions
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Fonix Setup|Fonix Extensions]
+Icon1=FonixExt.exe
+Title1=Fonix Extensions
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Fonix Setup|Package]
+PackageFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+ProjectFolder=C:\Old Files\Documents\Administrator\My Documents\FxN
+ServerSideCab=
+File1=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\setup.exe
+File2=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\Setup.Lst
+File3=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\FonixExt.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MSN Bot|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+
+[Package|MSN Bot|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MSN Bot|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MSN Bot|Files Found]
+
+[Package|MSN Bot|Files Released]
+
+[Package|MSN Bot|Missing Dependency Information]
+C:\Program Files\Messenger\msmsgs.exe=
+
+[Package|MSN Bot|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|MSN Bot|Files Added]
+
+[Package|MSN Bot|Files Removed]
+c:\program files\messenger\msmsgs.exe=
+
+[Package|MSN Bot|Files In Project]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Messenger\msmsgs.exe=No
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|MSN Bot|Configure Registry Files]
+Applicable=No
+
+[Package|MSN Bot|Configure Remote Servers]
+Applicable=No
+
+[Package|MSN Bot|Install Locations]
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|MSN Bot|Configure Shared Files]
+Applicable=Yes
+C:\Old Files\Documents\Administrator\My Documents\FxN\FonixExt.exe=No
+
+[Package|MSN Bot|Distribution]
+Type=single
+Size=
+Title=MSN Bot
+
+[Package|MSN Bot|IconGroups]
+Group0=MSN Bot
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|MSN Bot|MSN Bot]
+Icon1=FonixExt.exe
+Title1=MSN Bot
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MSN Bot|Package]
+PackageFolder=C:\Old Files\Documents\Administrator\My Documents\FxN\Package
+ProjectFolder=C:\Old Files\Documents\Administrator\My Documents\FxN
+ServerSideCab=
+File1=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\setup.exe
+File2=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\Setup.Lst
+File3=C:\Old Files\Documents\Administrator\My Documents\FxN\Package\FonixExt.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MSN Messenger Bot|Package]
+PackageFolder=C:\Old Files\Documents\Administrator\My Documents\Fonix\Package
+ProjectFolder=C:\Old Files\Documents\Administrator\My Documents\Fonix
+ServerSideCab=
+File1=C:\Old Files\Documents\Administrator\My Documents\Fonix\Package\setup.exe
+File2=C:\Old Files\Documents\Administrator\My Documents\Fonix\Package\Setup.Lst
+File3=C:\Old Files\Documents\Administrator\My Documents\Fonix\Package\Fonix.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|MSN Messenger Bot|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Old Files\Documents\Administrator\My Documents\Fonix\Package
+
+[Package|MSN Messenger Bot|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MSN Messenger Bot|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MSN Messenger Bot|Files Found]
+
+[Package|MSN Messenger Bot|Files Released]
+
+[Package|MSN Messenger Bot|Missing Dependency Information]
+C:\Program Files\Messenger\msmsgs.exe=
+
+[Package|MSN Messenger Bot|Out-of-Date Dependency Information]
+C:\WINNT\system32\mscomctl.ocx=
+
+[Package|MSN Messenger Bot|Files Added]
+C:\Old Files\Documents\Administrator\My Documents\Fonix\beep.wav=
+C:\Old Files\Documents\Administrator\My Documents\Fonix\BLONDE.TXT=
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Readme.txt=
+
+[Package|MSN Messenger Bot|Files Removed]
+c:\program files\messenger\msmsgs.exe=
+
+[Package|MSN Messenger Bot|Files In Project]
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Fonix.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Messenger\msmsgs.exe=No
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Old Files\Documents\Administrator\My Documents\Fonix\beep.wav=Yes
+C:\Old Files\Documents\Administrator\My Documents\Fonix\BLONDE.TXT=Yes
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Readme.txt=Yes
+
+[Package|MSN Messenger Bot|Configure Registry Files]
+Applicable=No
+
+[Package|MSN Messenger Bot|Configure Remote Servers]
+Applicable=No
+
+[Package|MSN Messenger Bot|Install Locations]
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Fonix.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Old Files\Documents\Administrator\My Documents\Fonix\beep.wav=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\Fonix\BLONDE.TXT=$(AppPath)
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Readme.txt=$(AppPath)
+
+[Package|MSN Messenger Bot|Configure Shared Files]
+Applicable=Yes
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Fonix.exe=No
+C:\Old Files\Documents\Administrator\My Documents\Fonix\beep.wav=No
+C:\Old Files\Documents\Administrator\My Documents\Fonix\BLONDE.TXT=No
+C:\Old Files\Documents\Administrator\My Documents\Fonix\Readme.txt=No
+
+[Package|MSN Messenger Bot|Distribution]
+Type=single
+Size=
+Title=MSN Messenger Bot
+
+[Package|MSN Messenger Bot|IconGroups]
+Group0=MSN Messenger Bot
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|MSN Messenger Bot|MSN Messenger Bot]
+Icon1=Fonix.exe
+Title1=Fonix
+StartIn1=$(AppPath)
+Key1=Icon1
